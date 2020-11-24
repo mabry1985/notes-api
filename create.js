@@ -9,7 +9,7 @@ export const main = handler(async (event, context) => {
     Item: {
       userId: "123",
       noteId: uuid.v1(),
-      content: data.content, 
+      content: data.content,
       attachment: data.attachment,
       createdAt: Date.now(),
     },
